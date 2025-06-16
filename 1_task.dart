@@ -4,6 +4,7 @@ main() {
   logicalOperators();
   ternaryOperator();
   assignmentOperators();
+  conditionalConstruction();
 }
 
 void mathOperators() {
@@ -62,4 +63,20 @@ void assignmentOperators() {
   score /= 0;
 
   print('Score: $score');
+}
+
+void conditionalConstruction() {
+  int examScore = 89;
+
+  if (examScore > 90) {
+    print('Відмінно');
+  } else if (examScore >= 75 && examScore <= 90) {
+    print('Добре');
+  } else if (examScore >= 60 && examScore <= 74) {
+    print('Задовільно');
+  } else if (examScore < 20) {
+    print('Повторити курс');
+  } else if (examScore < 60) {
+    print('Не здано');
+  }
 }
