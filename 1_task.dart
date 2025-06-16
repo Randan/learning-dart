@@ -8,6 +8,7 @@ main() {
   switchCase();
   forLoop();
   whileLoop();
+  breakContinue();
 }
 
 void mathOperators() {
@@ -130,5 +131,13 @@ void whileLoop() {
   while (i > 0) {
     i % 2 == 0 ? print('Парне число: $i') : print('Непарне число: $i');
     i--;
+  }
+}
+
+void breakContinue() {
+  for (int i = 1; i <= 20; i++) {
+    if (i % 3 == 0) continue;
+    if (i > 15) break;
+    print('i: $i');
   }
 }
