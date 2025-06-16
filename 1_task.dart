@@ -1,6 +1,7 @@
 main() {
   mathOperators();
   compareOperators();
+  logicalOperators();
 }
 
 void mathOperators() {
@@ -27,4 +28,15 @@ void compareOperators() {
   print('Is greater than 50: $isGraterThan50');
   print('Is less than 100: $isLessThan100');
   print('Is devide by 5: $isDevideBy5');
+}
+
+void logicalOperators() {
+  bool hasMoney = true;
+  bool isStoreOpen = true;
+
+  bool canBuy = hasMoney && isStoreOpen;
+  bool needToWait = !hasMoney || !isStoreOpen;
+
+  print('Can buy: $canBuy');
+  print('Need to wait: $needToWait');
 }
