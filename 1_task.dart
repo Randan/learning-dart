@@ -1,5 +1,6 @@
 main() {
   mathOperators();
+  compareOperators();
 }
 
 void mathOperators() {
@@ -15,4 +16,15 @@ void mathOperators() {
   int sum1Area = area ~/ 1;
 
   print('sum 1x1 square: $sum1Area');
+}
+
+void compareOperators() {
+  int number = 60;
+  bool isGraterThan50 = number > 50;
+  bool isLessThan100 = number < 100;
+  bool isDevideBy5 = number % 5 == 0;
+
+  print('Is greater than 50: $isGraterThan50');
+  print('Is less than 100: $isLessThan100');
+  print('Is devide by 5: $isDevideBy5');
 }
