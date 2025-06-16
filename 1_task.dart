@@ -2,6 +2,7 @@ main() {
   mathOperators();
   compareOperators();
   logicalOperators();
+  ternaryOperator();
 }
 
 void mathOperators() {
@@ -39,4 +40,11 @@ void logicalOperators() {
 
   print('Can buy: $canBuy');
   print('Need to wait: $needToWait');
+}
+
+void ternaryOperator() {
+  int temperature = 10;
+  String result = temperature > 25 ? 'Тепло' : 'Прохолодно';
+
+  print('Result: $result');
 }
