@@ -3,6 +3,7 @@ main() {
   compareOperators();
   logicalOperators();
   ternaryOperator();
+  assignmentOperators();
 }
 
 void mathOperators() {
@@ -51,4 +52,14 @@ void ternaryOperator() {
       : 'Прохолодно';
 
   print('Result: $result');
+}
+
+void assignmentOperators() {
+  double score = 0;
+  score += 10;
+  score -= 5;
+  score *= 2;
+  score /= 0;
+
+  print('Score: $score');
 }
