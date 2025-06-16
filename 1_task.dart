@@ -44,7 +44,11 @@ void logicalOperators() {
 
 void ternaryOperator() {
   int temperature = 10;
-  String result = temperature > 25 ? 'Тепло' : 'Прохолодно';
+  String result = temperature > 25
+      ? 'Тепло'
+      : temperature < 10
+      ? 'Дуже холодно'
+      : 'Прохолодно';
 
   print('Result: $result');
 }
