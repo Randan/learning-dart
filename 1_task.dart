@@ -5,6 +5,7 @@ main() {
   ternaryOperator();
   assignmentOperators();
   conditionalConstruction();
+  switchCase();
 }
 
 void mathOperators() {
@@ -78,5 +79,30 @@ void conditionalConstruction() {
     print('Повторити курс');
   } else if (examScore < 60) {
     print('Не здано');
+  }
+}
+
+void switchCase() {
+  int day = 3;
+
+  switch (day) {
+    case 1:
+      print('Понеділок');
+    case 2:
+      print('Вівторок');
+    case 3:
+      print('Середа');
+    case 4:
+      print('Четвер');
+    case 5:
+      print('П\'ятниця');
+    case 6:
+      print('Субота');
+      print('Вихідний день 🎉');
+    case 7:
+      print('Неділя');
+      print('Вихідний день 🎉');
+    default:
+      print('Невірний номер дня');
   }
 }
