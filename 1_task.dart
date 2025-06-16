@@ -6,6 +6,7 @@ main() {
   assignmentOperators();
   conditionalConstruction();
   switchCase();
+  forLoop();
 }
 
 void mathOperators() {
@@ -105,4 +106,20 @@ void switchCase() {
     default:
       print('Невірний номер дня');
   }
+}
+
+void forLoop() {
+  for (int i = 1; i <= 10; i++) {
+    print('i: $i');
+  }
+
+  for (int i = 1; i <= 10; i++) {
+    if (i % 2 == 0) print('i: $i');
+  }
+
+  int sum = 0;
+  for (int i = 1; i <= 10; i++) {
+    sum += i;
+  }
+  print('sum: $sum');
 }
