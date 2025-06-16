@@ -7,6 +7,7 @@ main() {
   conditionalConstruction();
   switchCase();
   forLoop();
+  whileLoop();
 }
 
 void mathOperators() {
@@ -122,4 +123,12 @@ void forLoop() {
     sum += i;
   }
   print('sum: $sum');
+}
+
+void whileLoop() {
+  int i = 10;
+  while (i > 0) {
+    i % 2 == 0 ? print('Парне число: $i') : print('Непарне число: $i');
+    i--;
+  }
 }
