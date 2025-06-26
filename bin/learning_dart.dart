@@ -1,14 +1,18 @@
-import '../lib/lesson_6/lessont_6.dart';
+// import 'package:learning_dart/lesson_6/main.dart';
+import 'package:learning_dart/lesson_8/main.dart';
 
 void main(List<String> arguments) {
-  mathOperators();
-  compareOperators();
-  logicalOperators();
-  ternaryOperator();
-  assignmentOperators();
-  conditionalConstruction();
-  switchCase();
-  forLoop();
-  whileLoop();
-  breakContinue();
+  // mathOperators();
+  // compareOperators();
+  // logicalOperators();
+  // ternaryOperator();
+  // assignmentOperators();
+  // conditionalConstruction();
+  // switchCase();
+  // forLoop();
+  // whileLoop();
+  // breakContinue();
+  listsTask();
+  setsTask();
+  mapsTask();
 }
