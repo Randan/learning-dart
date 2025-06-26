@@ -1,23 +1,23 @@
 void mathOperators() {
-  int a = 10;
-  int b = 20;
+  const a = 10;
+  const b = 20;
 
-  int perimeter = 2 * (a + b);
-  int area = a * b;
+  const perimeter = 2 * (a + b);
+  const area = a * b;
 
   print('Perimeter: $perimeter');
   print('Area: $area');
 
-  int sum1Area = area ~/ 1;
+  const sum1Area = area ~/ 1;
 
   print('sum 1x1 square: $sum1Area');
 }
 
 void compareOperators() {
-  int number = 60;
-  bool isGraterThan50 = number > 50;
-  bool isLessThan100 = number < 100;
-  bool isDevideBy5 = number % 5 == 0;
+  const number = 60;
+  const isGraterThan50 = number > 50;
+  const isLessThan100 = number < 100;
+  const isDevideBy5 = number % 5 == 0;
 
   print('Is greater than 50: $isGraterThan50');
   print('Is less than 100: $isLessThan100');
@@ -25,19 +25,19 @@ void compareOperators() {
 }
 
 void logicalOperators() {
-  bool hasMoney = true;
-  bool isStoreOpen = true;
+  const hasMoney = true;
+  const isStoreOpen = true;
 
-  bool canBuy = hasMoney && isStoreOpen;
-  bool needToWait = !hasMoney || !isStoreOpen;
+  const canBuy = hasMoney && isStoreOpen;
+  const needToWait = !hasMoney || !isStoreOpen;
 
   print('Can buy: $canBuy');
   print('Need to wait: $needToWait');
 }
 
 void ternaryOperator() {
-  int temperature = 10;
-  String result = temperature > 25
+  const temperature = 10;
+  const result = temperature > 25
       ? 'Тепло'
       : temperature < 10
       ? 'Дуже холодно'
@@ -57,7 +57,7 @@ void assignmentOperators() {
 }
 
 void conditionalConstruction() {
-  int examScore = 89;
+  const examScore = 89;
 
   if (examScore > 90) {
     print('Відмінно');
@@ -73,7 +73,7 @@ void conditionalConstruction() {
 }
 
 void switchCase() {
-  int day = 3;
+  const day = 3;
 
   switch (day) {
     case 1:
