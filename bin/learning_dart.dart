@@ -1,5 +1,15 @@
-import 'package:learning_dart/learning_dart.dart' as learning_dart;
+import '../lib/lesson_6/lessont_6.dart';
+// import '../lib/lesson_8/lessont_8.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${learning_dart.calculate()}!');
+  mathOperators();
+  compareOperators();
+  logicalOperators();
+  ternaryOperator();
+  assignmentOperators();
+  conditionalConstruction();
+  switchCase();
+  forLoop();
+  whileLoop();
+  breakContinue();
 }

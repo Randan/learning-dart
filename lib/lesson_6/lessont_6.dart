@@ -1,16 +1,3 @@
-main() {
-  mathOperators();
-  compareOperators();
-  logicalOperators();
-  ternaryOperator();
-  assignmentOperators();
-  conditionalConstruction();
-  switchCase();
-  forLoop();
-  whileLoop();
-  breakContinue();
-}
-
 void mathOperators() {
   int a = 10;
   int b = 20;
