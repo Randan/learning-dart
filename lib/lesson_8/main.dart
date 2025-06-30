@@ -4,6 +4,12 @@ import 'package:learning_dart/utils/main.dart';
 import 'package:learning_dart/lesson_8/names.dart';
 import 'package:word_generator/word_generator.dart';
 
+void lesson_8() {
+  listsTask();
+  setsTask();
+  mapsTask();
+}
+
 void listsTask() {
   print('Lists task:');
   separator();

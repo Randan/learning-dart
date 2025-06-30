@@ -16,8 +16,8 @@ This project contains various lessons and exercises for learning Dart:
 - `lib/` - Library code and lesson modules
   - `lesson_6/` - Lesson 6 materials
   - `lesson_8/` - Lesson 8 materials
+  - `lesson_9/` - Lesson 9 materials
   - `utils/` - Utility functions and helper code
-- `test/` - Unit tests
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ To run this project:
 1. Make sure you have Dart SDK installed
 2. Clone this repository
 3. Run `dart pub get` to install dependencies
-4. Execute the main application with `dart run bin/learning_dart.dart`
+4. Execute the main application with `dart run`
 
 ## Learning Progress
 

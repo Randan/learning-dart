@@ -5,6 +5,28 @@ This document tracks the learning progress and changes made during the Dart lear
 ## [Unreleased]
 
 ### Added
+- Lesson 9: Object-Oriented Programming fundamentals
+  - Class constructors and instance variables
+  - Named constructors and factory constructors
+  - Getter properties and computed values
+  - Singleton pattern implementation
+  - Exception handling in constructors
+  - Multiple class examples: Car, Rectangle, User, Temperature, Person, Circle, Logger, Shape
+- Lesson 8: Collections and Data Structures
+  - Lists manipulation with random number generation
+  - Sets operations (intersection, difference)
+  - Maps creation and filtering
+  - External package integration (word_generator)
+  - Ukrainian names datasets for practice
+- Lesson 6: Operators and Control Flow
+  - Mathematical operators and calculations
+  - Comparison and logical operators
+  - Ternary operator with nested conditions
+  - Assignment operators
+  - Conditional statements (if-else)
+  - Switch-case statements
+  - Loop constructs (for, while)
+  - Break and continue statements
 - Comprehensive .gitignore file for Dart projects
 - Enhanced analysis_options.yaml with additional lint rules
 - Project documentation updates
@@ -17,6 +39,7 @@ This document tracks the learning progress and changes made during the Dart lear
 - Improved code quality configuration with recommended lint rules
 - Disabled avoid_print rule for learning purposes
 - Refactored separator function to use optional parameters
+- Added word_generator dependency for random word generation
 
 ### Learning Progress
 - Started Dart programming language fundamentals
@@ -26,6 +49,9 @@ This document tracks the learning progress and changes made during the Dart lear
 - Configured development environment with proper linting
 - Learned about optional parameters and default values
 - Practiced nullable type handling and null safety
+- **Lesson 6**: Mastered operators, control flow, and loop constructs
+- **Lesson 8**: Explored collections (Lists, Sets, Maps) and external packages
+- **Lesson 9**: Implemented OOP concepts with practical class examples
 
 ## [1.0.0] - Initial Setup
 
