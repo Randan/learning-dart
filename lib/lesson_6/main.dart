@@ -1,3 +1,16 @@
+void lesson_6() {
+  mathOperators();
+  compareOperators();
+  logicalOperators();
+  ternaryOperator();
+  assignmentOperators();
+  conditionalConstruction();
+  switchCase();
+  forLoop();
+  whileLoop();
+  breakContinue();
+}
+
 void mathOperators() {
   const a = 10;
   const b = 20;
