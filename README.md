@@ -16,6 +16,7 @@ This project contains various lessons and exercises for learning Dart:
 - `lib/` - Library code and lesson modules
   - `lesson_6/` - Lesson 6 materials
   - `lesson_8/` - Lesson 8 materials
+  - `utils/` - Utility functions and helper code
 - `test/` - Unit tests
 
 ## Getting Started
@@ -36,7 +37,15 @@ This repository tracks my progress through the Dart programming language fundame
 - Object-oriented programming concepts
 - Collections and generics
 - Asynchronous programming
+- Optional parameters and default values
+- Null safety and nullable types
 - And more...
+
+## Recent Learning Topics
+
+- **Optional Parameters**: Learned how to create functions with optional positional parameters using square brackets `[]` and default values
+- **Null Safety**: Practiced handling nullable types and proper null checking
+- **Utility Functions**: Created reusable helper functions for common tasks
 
 ## License
 
