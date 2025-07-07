@@ -5,6 +5,13 @@ This document tracks the learning progress and changes made during the Dart lear
 ## [Unreleased]
 
 ### Added
+- Lesson 11: Asynchronous Programming and Streams
+  - Future-based asynchronous operations
+  - Stream processing with different approaches
+  - StreamController for manual stream management
+  - Parallel vs sequential task execution
+  - Periodic streams and stream transformations
+  - Proper async/await patterns
 - Lesson 9: Object-Oriented Programming fundamentals
   - Class constructors and instance variables
   - Named constructors and factory constructors
@@ -35,6 +42,11 @@ This document tracks the learning progress and changes made during the Dart lear
 - Fixed nullable boolean parameter handling
 
 ### Changed
+- **Code Internationalization**: Translated all Ukrainian text in code to English
+  - Updated print statements and string literals
+  - Translated comments and documentation
+  - Standardized output messages across all lessons
+  - Improved code readability for international developers
 - Updated README.md with course information and project structure
 - Improved code quality configuration with recommended lint rules
 - Disabled avoid_print rule for learning purposes
@@ -52,6 +64,7 @@ This document tracks the learning progress and changes made during the Dart lear
 - **Lesson 6**: Mastered operators, control flow, and loop constructs
 - **Lesson 8**: Explored collections (Lists, Sets, Maps) and external packages
 - **Lesson 9**: Implemented OOP concepts with practical class examples
+- **Lesson 11**: Learned asynchronous programming with Futures and Streams
 
 ## [1.0.0] - Initial Setup
 
