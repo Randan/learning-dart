@@ -39,17 +39,12 @@ Future<String> fetchAge() async {
   );
 
   final ageNum = int.parse(age);
-  String yearWord;
-
-  if (ageNum % 100 >= 11 && ageNum % 100 <= 14) {
-    yearWord = 'років';
-  } else if (ageNum % 10 == 1) {
-    yearWord = 'рік';
-  } else if (ageNum % 10 >= 2 && ageNum % 10 <= 4) {
-    yearWord = 'роки';
-  } else {
-    yearWord = 'років';
-  }
+  final yearWord = switch (ageNum) {
+    _ when ageNum % 100 >= 11 && ageNum % 100 <= 14 => 'років',
+    _ when ageNum % 10 == 1 => 'рік',
+    _ when ageNum % 10 >= 2 && ageNum % 10 <= 4 => 'роки',
+    _ => 'років',
+  };
 
   print('Мені $age $yearWord');
   return age;
@@ -58,20 +53,24 @@ Future<String> fetchAge() async {
 Future<void> sequenceTask() async {
   final stopwatch = Stopwatch()..start();
 
-  await fetchName();
-  await fetchAge();
+  final name = await fetchName();
+  final age = await fetchAge();
 
   stopwatch.stop();
+
   print('Час виконання (послідовно): ${stopwatch.elapsedMilliseconds} мс');
+  print('Результати: $name, $age років');
 }
 
 Future<void> parallelTask() async {
   final stopwatch = Stopwatch()..start();
 
-  await Future.wait([fetchName(), fetchAge()]);
+  final [name, age] = await Future.wait([fetchName(), fetchAge()]);
 
   stopwatch.stop();
+
   print('Час виконання (паралельно): ${stopwatch.elapsedMilliseconds} мс');
+  print('Результати: $name, $age років');
 }
 
 Future<String> delayedCountdown(int seconds) async {
