@@ -14,9 +14,10 @@ This project contains various lessons and exercises for learning Dart:
 
 - `bin/` - Entry point for the application
 - `lib/` - Library code and lesson modules
-  - `lesson_6/` - Lesson 6 materials
-  - `lesson_8/` - Lesson 8 materials
-  - `lesson_9/` - Lesson 9 materials
+  - `lesson_6/` - Operators and Control Flow
+  - `lesson_8/` - Collections and Data Structures
+  - `lesson_9/` - Object-Oriented Programming
+  - `lesson_11/` - Asynchronous Programming and Streams
   - `utils/` - Utility functions and helper code
 
 ## Getting Started
@@ -36,16 +37,23 @@ This repository tracks my progress through the Dart programming language fundame
 - Control flow and functions
 - Object-oriented programming concepts
 - Collections and generics
-- Asynchronous programming
+- Asynchronous programming with Futures and Streams
 - Optional parameters and default values
 - Null safety and nullable types
 - And more...
 
 ## Recent Learning Topics
 
+- **Asynchronous Programming**: Learned about Futures, async/await patterns, and Stream processing
+- **Streams**: Explored different ways to work with streams including StreamController and periodic streams
+- **Code Internationalization**: Translated all Ukrainian text to English for better code accessibility
 - **Optional Parameters**: Learned how to create functions with optional positional parameters using square brackets `[]` and default values
 - **Null Safety**: Practiced handling nullable types and proper null checking
 - **Utility Functions**: Created reusable helper functions for common tasks
+
+## Code Quality
+
+All code is written in English and follows Dart best practices with proper linting configuration. The project uses `analysis_options.yaml` to ensure code quality and consistency.
 
 ## License
 
